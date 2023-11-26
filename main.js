@@ -111,7 +111,7 @@ torusKnotDepthMesh.receiveShadow = true;
 torusKnotDepthMesh.position.set(4, 1, 0);
 scene.add(torusKnotDepthMesh);
 
-const textureLoader = new THREE.TextureLoader();
+// const textureLoader = new THREE.TextureLoader();
 // textureLoader.load("/threejs.webp", (texture) => {
 //     const textureBoxGeometry = new THREE.BoxGeometry(1, 1, 1);
 //     const textureMaterial = new THREE.MeshStandardMaterial({ map: texture });
@@ -123,14 +123,14 @@ const textureLoader = new THREE.TextureLoader();
 // });
 // test
 
-const texture = await textureLoader.loadAsync("/threejs.webp");
-    const textureBoxGeometry = new THREE.BoxGeometry(1, 1, 1);
-    const textureMaterial = new THREE.MeshStandardMaterial({ map: texture });
-    const textureMesh = new THREE.Mesh(textureBoxGeometry, textureMaterial);
-    textureMesh.castShadow = true;
-    textureMesh.receiveShadow = true;
-    textureMesh.position.set(0, 0.5, 2);
-    scene.add(textureMesh);
+// const texture = await textureLoader.loadAsync("/threejs.webp");
+// const textureBoxGeometry = new THREE.BoxGeometry(1, 1, 1);
+// const textureMaterial = new THREE.MeshStandardMaterial({ map: texture });
+// const textureMesh = new THREE.Mesh(textureBoxGeometry, textureMaterial);
+// textureMesh.castShadow = true;
+// textureMesh.receiveShadow = true;
+// textureMesh.position.set(0, 0.5, 2);
+// scene.add(textureMesh);
 
 // const geometry = new THREE.BoxGeometry(1, 1, 1);
 // const meterial = new THREE.MeshStandardMaterial({ color: 0x00ff00 });
