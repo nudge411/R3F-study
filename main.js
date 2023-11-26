@@ -121,6 +121,7 @@ const textureLoader = new THREE.TextureLoader();
 //     textureMesh.position.set(0, 0.5, 2);
 //     scene.add(textureMesh);
 // });
+// test
 
 const texture = await textureLoader.loadAsync("/threejs.webp");
     const textureBoxGeometry = new THREE.BoxGeometry(1, 1, 1);
